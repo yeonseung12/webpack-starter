@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write src/**/*.js src/**/*.scss"
   },

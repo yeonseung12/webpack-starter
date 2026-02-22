@@ -28,8 +28,9 @@ module.exports = {
   output: { ... },           // 2. 결과물 저장 위치
   module: { rules: [...] },  // 3. 파일별 처리 규칙 (loader)
   plugins: [...],            // 4. 추가 기능
-  devServer: { ... },        // 5. 개발 서버 설정
-  mode: 'development',       // 6. 빌드 모드
+  devtool: '...',            // 5. 소스맵
+  devServer: { ... },        // 6. 개발 서버 설정
+  mode: 'development',       // 7. 빌드 모드
 };
 ```
 
@@ -228,7 +229,7 @@ devServer: {
 
 ---
 
-## 6. mode — 빌드 모드
+## 7. mode — 빌드 모드
 
 `mode`를 통해 파일을 어떻게 번들링할 것인지 설정할 수 있습니다.
 
